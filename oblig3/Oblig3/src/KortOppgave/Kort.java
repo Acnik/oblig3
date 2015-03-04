@@ -126,8 +126,7 @@ public abstract class Kort implements Comparable<Kort>{
 	 * Deler opp en lang string og setter de første halvparten av navnene som
 	 * fornavn om den andre halvparten som etternavn.
 	 *
-	 * @param Fullt
-	 *            navn der navn skilles med mellomrom.
+	 * @param navn the new t fullt navn
 	 */
 	public void settFulltNavn(String navn) {
 		String[] navnArr = navn.split(" ");
@@ -154,8 +153,7 @@ public abstract class Kort implements Comparable<Kort>{
 	/**
 	 * Compare.
 	 *
-	 * @param temp
-	 *            , Kort objektet du skal sammenligne kortet ditt med.
+	 * @param k the k
 	 * @return Returns 0 om navnene til kortholderne er lik. Returnerer et tall
 	 *         som er mindre enn 0 om objektet ligger over argumentet
 	 *         alfabetisk. Returnerer et negativt tall om argumentet er over

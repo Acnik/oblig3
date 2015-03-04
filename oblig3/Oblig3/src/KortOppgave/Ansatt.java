@@ -143,6 +143,9 @@ public class Ansatt extends Kort implements Fast{
 		return (super.toString() + "Type: Ansatt.");
 	}
 
+	/* (non-Javadoc)
+	 * @see KortOppgave.Kort#compareTo(KortOppgave.Kort)
+	 */
 	@Override
 	public int compareTo(Kort k) {
 		return super.compareTo(k);

@@ -125,6 +125,10 @@ public class Gjest extends Kort {
 		// TODO Auto-generated method stub
 		return (super.toString() + "Type: Gjest.");
 	}
+	
+	/* (non-Javadoc)
+	 * @see KortOppgave.Kort#compareTo(KortOppgave.Kort)
+	 */
 	@Override
 	public int compareTo(Kort k) {
 		return super.compareTo(k);
