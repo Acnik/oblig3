@@ -16,7 +16,7 @@ public class Gjest extends Kort {
 	GregorianCalendar utstedtDato;
 	
 	/**
-	 * Instantiates a new gjest.
+	 * Instantiates a new gjest.  
 	 */
 	public Gjest() {
 		this("Udefinert fornavn", "Udefinert etternavn");

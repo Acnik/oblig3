@@ -153,7 +153,7 @@ public abstract class Kort implements Comparable<Kort>{
 	/**
 	 * Compare.
 	 *
-	 * @param k the k
+	 * @param k the k  
 	 * @return Returns 0 om navnene til kortholderne er lik. Returnerer et tall
 	 *         som er mindre enn 0 om objektet ligger over argumentet
 	 *         alfabetisk. Returnerer et negativt tall om argumentet er over

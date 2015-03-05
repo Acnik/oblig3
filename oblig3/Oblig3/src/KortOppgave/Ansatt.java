@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
 
 // TODO: Auto-generated Javadoc
 /**
- * The Class Ansatt.
+ * The Class Ansatt.   
  */
 public class Ansatt extends Kort implements Fast{
 	

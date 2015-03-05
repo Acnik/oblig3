@@ -1,5 +1,5 @@
 package KortOppgave;
-
+//Interface som brukest i alle fast-ansatte og fremtidige ansatt-klasser.
 public interface Fast {
 public void settFornavn(String fornavn);
 public String hentFornavn();

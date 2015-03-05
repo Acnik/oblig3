@@ -20,7 +20,7 @@ public class KortTest {
             System.out.println("\nTest av kort: med kode 1234 er" + (kort.SjekkPIN(1234) ?  " gyldig" :  " ugyldig" ) );
             System.out.println("\nTest av kort: med kode 9999 er" + (kort.SjekkPIN(9999) ?  " gyldig" :  " ugyldig" ) );
         }
-        
+        //
         
         Kort k3 = new Ansatt("Test testesen testlos trol", 4561);
         reg.add(k3);
