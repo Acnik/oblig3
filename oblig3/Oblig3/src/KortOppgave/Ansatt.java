@@ -4,6 +4,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 
+
 // TODO: Auto-generated Javadoc
 /**
  * The Class Ansatt.
@@ -149,6 +150,7 @@ public class Ansatt extends Kort implements Fast{
 	@Override
 	public int compareTo(Kort k) {
 		return super.compareTo(k);
+
 	}
 
 }

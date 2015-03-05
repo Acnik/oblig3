@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 
+
 // TODO: Auto-generated Javadoc
 /**
  * The Class Gjest.
@@ -133,5 +134,4 @@ public class Gjest extends Kort {
 	public int compareTo(Kort k) {
 		return super.compareTo(k);
 	}
-
 }
